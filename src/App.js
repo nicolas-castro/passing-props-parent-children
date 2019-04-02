@@ -4,7 +4,7 @@ import ComponentB from './ComponentB';
 import ComponentD from './ComponentD';
 
 class App extends Component {
-  state = { x:2}
+  state = { x:1}
 
   handleXClick = () => {
     this.setState({x: this.state.x +1})
